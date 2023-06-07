@@ -47,6 +47,7 @@ public class MovieControllerTest {
 
         Movie savedMovie = new Movie();
         Director director = new Director();
+
         savedMovie.setId(1L);
         savedMovie.setMovieName("Title movie");
         savedMovie.setDescription("Movie description");

@@ -1,6 +1,7 @@
 package com.devdojo.guto.entities;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -19,6 +20,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @Entity
+@Builder
 @NoArgsConstructor
 @Table(name = "FILMES")
 public class Movie {
